@@ -72,7 +72,7 @@ of truth (`context.db`) that all agents synchronize against.
 
 ## Tech stack
 
-Python 3.9+, Streamlit, Pandas, Hugging Face `transformers`
+Python 3.10+, Streamlit, Pandas, Hugging Face `transformers`
 (`distilbert-base-uncased-finetuned-sst-2-english`), SQLite, `feedparser`.
 
 ---
