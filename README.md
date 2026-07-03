@@ -122,6 +122,31 @@ no model download required to verify the logic.
    `st.cache_resource`), so the app boots instantly and never times out
    on cold start.
 
+
+   ## 👥 Team & Roles
+
+**CrisisGuard-AI** was engineered by a core technical architect and a strategic product lead, combining rigorous engineering with high-impact social good strategy.
+
+### **Shaurya (Technical Lead & Architect)**
+*Lead Developer | Python Engineer | Security Specialist*
+
+*   **Core System Architecture:** Solely designed and implemented the **Multi-Agent System (MAS)** using a custom **Model Context Protocol (MCP)** pattern. Engineered the stateful communication layer using SQLite to ensure agent independence and data integrity.
+*   **Security & Robustness:** Built the entire security framework from scratch, including **input sanitization pipelines**, **rate-limiting logic**, and **environment-based secret management** to guarantee zero-cost, secure operation without hardcoded keys.
+*   **Full-Stack Implementation:** Developed the entire Python codebase (`agents.py`, `alert_system.py`), the **Streamlit dashboard** for real-time visualization, and the **11-test `pytest` suite** using mock scorers to validate logic offline.
+*   **Deployment Strategy:** Orchestrated the deployment pipeline to **Hugging Face Spaces**, ensuring the ML models and agents run seamlessly in a serverless environment.
+*   **Technical Ownership:** Responsible for 100% of the code logic, database schema, and performance optimization, ensuring the system remains accurate even when ML models are uncertain.
+
+### **Rama Kruthi (Product Lead & Strategy)**
+*System Designer | Impact Strategist | Demo Lead*
+
+*   **Crisis Logic & Taxonomy:** Defined the crisis detection taxonomy and the "Safety-First" scoring logic that prioritizes keyword certainty over ML latency.
+*   **Social Impact Framework:** Mapped specific crisis categories (Fire, Cybercrime, Mental Health) to real-world authority routing protocols, ensuring the system solves a tangible real-world problem.
+*   **Narrative & Demo:** Led the project storytelling, crafting the "Zero Budget, High Reliability" value proposition and directing the live demonstration to showcase system resilience.
+*   **Research & Validation:** Conducted initial feasibility research on crisis signal detection patterns to validate the need for a hybrid keyword+ML approach.
+
+**Collaboration Model:**
+The project followed a **"Builder-Visionary" synergy**: Rama Kruthi defined the *what* and *why* (crisis logic, authority routing, impact strategy), while **Shaurya** engineered the *how* (MCP architecture, Python agents, security, and deployment). This division of labor allowed the team to deliver a production-ready, secure agent system in a single sprint with **zero capital expenditure**.
+
 ---
 
 *Zero budget. Zero paid APIs. Fully reproducible.*
