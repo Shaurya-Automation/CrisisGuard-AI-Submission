@@ -152,17 +152,10 @@ no model download required to verify the logic.
 
 ## Screenshots
 
-_Add screenshots here after running a simulation cycle locally (see
-`SCREENSHOT_GUIDE.md` for exactly what to capture):_
-
-```
-![Live dashboard — feed, heatmap, status](screenshots/dashboard.png)
-![Multi-agent / MCP code structure](screenshots/agents_code.png)
-![Alert log — Severity 5 trigger](screenshots/alert_trigger.png)
-```
-
-Save the actual image files into a `screenshots/` folder at the repo
-root and replace the placeholder paths above so they render on GitHub.
+Can be seen as indivisual files, they will be labelled as the following:
+1. Dashboard image 1.png
+2. Dashboard image 2.png
+3. Alerts (also visisble on dashboard).png [shown in bash]
 
 ---
 
@@ -187,8 +180,6 @@ root and replace the placeholder paths above so they render on GitHub.
 *   **Narrative & Demo:** Led the project storytelling, crafting the "Zero Budget, High Reliability" value proposition and directing the live demonstration to showcase system resilience.
 *   **Research & Validation:** Conducted initial feasibility research on crisis signal detection patterns to validate the need for a hybrid keyword+ML approach.
 
-**Collaboration Model:**
-The project followed a **"Builder-Visionary" synergy**: Rama Kruthi defined the *what* and *why* (crisis logic, authority routing, impact strategy), while **Shaurya** engineered the *how* (MCP architecture, Python agents, security, and deployment). This division of labor allowed the team to deliver a production-ready, secure agent system in a single sprint with **zero capital expenditure**.
 
 ---
 
