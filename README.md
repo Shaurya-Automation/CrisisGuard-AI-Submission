@@ -152,10 +152,7 @@ no model download required to verify the logic.
 
 ## Screenshots
 
-Can be seen as indivisual files, they will be labelled as the following:
-1. Dashboard image 1.png
-2. Dashboard image 2.png
-3. Alerts (also visisble on dashboard).png [shown in bash]
+Screenshots are in the folder titled "Images"
 
 ---
 
